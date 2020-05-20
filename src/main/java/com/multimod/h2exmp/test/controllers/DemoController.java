@@ -25,5 +25,12 @@ public class DemoController {
 		log.info("Entring into getStudentMapping",System.currentTimeMillis());
 		return demoServ.getAllStudentList();
 	}
+	
+	@GetMapping(path="/getTeacher")
+	public List<Student> getTeacherMapping() {
+		log.info("Entring into getTeacherMapping",System.currentTimeMillis());
+		//TODO:Add method 
+		return null;
+	}
 
 }
